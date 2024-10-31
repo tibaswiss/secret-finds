@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #211951;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+
+
+.header-slider {
+    background: #ffffff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    min-height: 60px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+/* File: public/styles.css */
+
+.header-slider {
+    background: url('images/SecretFinds2.gif') no-repeat center center; /* Line with GIF background */
+    background-size: cover; /* Ensures the GIF covers the entire header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    min-height: 80px;
+    max-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-slider .logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.header-slider h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product-item {
+    background: #ffffff;
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center;
+    color: #211951;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-item h3 {
+    font-size: 1.1em;
+    margin-top: 10px;
+    color: #211951;
+}
+
+.product-item p {
+    font-size: 0.9em;
+    color: #211951;
+    margin-top: 5px;
+}
+
+.pagination-buttons {
+    margin-top: 20px;
+}
+
+.next-button, .prev-button {
+    padding: 10px 20px;
+    background: #211951;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin: 0 10px;
+}
+
+.next-button:hover, .prev-button:hover {
+    background: #211951;
+}
+
+/* Footer Styling 
+.footer {
+    background-color: #ffffff; /* White background for footer 
+    color: #211951; /* Dark color for text 
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Optional subtle border at the top
+}
+*/
+.footer {
+    background-color: #ffffff; /* White background for footer */
+    color: #211951; /* Dark color for text */
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* Optional subtle border at the top */
+    margin-top: 40px; /* Space above the footer */
+}
+
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #211951;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    color: #333399; /* Slight color change on hover */
+}
+
+.footer-links .about-text {
+    margin-top: 10px;
+    max-width: 400px;
+    text-align: center; /* Center-align the text */
+    color: #333;
+    font-size: 0.9em;
+}
+
+
+.footer-social h4 {
+    margin-bottom: 10px;
+    color: #211951;
+}
+
+.footer-social p {
+    margin: 5px 0;
+}
+
+.footer-social a {
+    color: #211951;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #333399;
+}
+
+/* Footer styling for larger screens */
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
